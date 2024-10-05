@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igloo House Login</title>
+    <style>
+        /* Resetting margins and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 1rem;
+            color: #555;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="text"]:focus,
+        input[type="password"]:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+        .login-first{
+            font-family:Arial, Helvetica, sans-serif;
+            color:rgb(240, 118, 11);
+        
+            
+        }
+        .pictureedit{
+            height: 200px;
+            width: 200px;
+            margin-left: 60px;
+        }
+
+        .login-button:hover {
+            background-color: #0056b3;
+        }
+
+        .admin-button {
+            background-color: #28a745;
+            color: white;
+            border: #333;
+            width: 200px;
+            padding: 10px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            /* margin: 100px; */
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .admin-button:hover {
+            background-color: #218838;
+        }
+
+        .form-footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        .form-footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .form-footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <img src="https://img.freepik.com/premium-vector/ice-cream-logo-vector_1277164-8220.jpg?semt=ais_hybrid" class="pictureedit">
+        <h2 class="login-first">IGLOO HOUSE PORTAL LOGIN </h2>
+        <!-- Login Form -->
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <!-- <button type="submit" class="login-button">Login as User</button> -->
+          <button type="submit" class="admin-button"><a href="index.html">Login </a></button>
+          <!-- <a href="index.html" class="admin-button">Login</a> -->
+
+        </form>
+        <!-- Footer -->
+        <div class="form-footer">
+            <p>Forgot your password? <a href="#">Reset Password</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
