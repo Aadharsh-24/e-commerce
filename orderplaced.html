@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <style>
+        /* Resetting default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        p{
+            color: #222924;
+        }
+
+        .confirmation-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            max-width: 600px;
+            width: 100%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .confirmation-container h1 {
+            font-size: 2rem;
+            color: #28a745;
+            margin-bottom: 20px;
+        }
+
+        .confirmation-container p {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .order-summary {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: left;
+            margin: 20px 0;
+        }
+
+        .order-summary h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .order-summary ul {
+            list-style: none;
+        }
+
+        .order-summary ul li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        .order-summary ul li span {
+            font-weight: bold;
+        }
+
+        .buttons {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        .button-secondary {
+            background-color: #6c757d;
+        }
+
+        .button-secondary:hover {
+            background-color: #5a6268;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="confirmation-container">
+        <h1>Your Order Has Been Accepted</h1>
+        <p>Cold Desserts Will Reach You Shortly</p>
+
+        <div class="order-summary">
+            <h3>Order Summary</h3>
+            <ul>
+                <li><span>Order Number:</span> #123456789</li>
+                <li><span>Order Date:</span> October 5, 2024</li>
+                <li><span>Total Amount:</span> Rs.477/-</li>
+            </ul>
+        </div>
+
+        <div class="buttons">
+            <a href="index.html" class="button">Continue Shopping</a>
+            <a href="index1.html" class="button button-secondary">View Order Details</a>
+        </div>
+    </div>
+
+</body>
+</html>
