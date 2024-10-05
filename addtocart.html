@@ -1,0 +1,165 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Cart</title>
+    <style>
+        /* Basic reset for margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .product img {
+            width: 100px;
+            height: 100px;
+            border-radius: 5px;
+        }
+        .product-done{
+            color: white;
+            block-size: auto;
+            padding: 10px 20px;
+            background-color: rgb(234, 0, 255);
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+
+        }
+        .product-info {
+            flex: 1;
+            padding: 0 20px;
+        }
+
+        .product-info h2 {
+            font-size: 1.2rem;
+            color: #333;
+        }
+
+        .product-info p {
+            color: maroon;
+            margin: 10px 0;
+        }
+
+        .product-price {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: #28a745;
+        }
+
+        .cart-button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 1rem;
+            border-radius: 5px;
+        }
+
+        .cart-button:hover {
+            background-color: #218838;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #888;
+        }
+        
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Add to Cart</h1>
+
+        <!-- Product 1 -->
+        <div class="product">
+            <img src="https://img.freepik.com/premium-photo/waffle-with-scoop-vanilla-ice-cream_756535-3440.jpg" alt=">Waffer Vanilla Dipped In Milk">
+            <div class="product-info">
+                <h2>Waffer Vanilla Dipped In Milk</h2>
+                <p><b>The Elite taste of Vanilla fused with the crunchiness of Waffers</b>
+                </p>
+                <span class="product-price">Rs.129/-</span>
+            </div>
+            <button class="cart-button">- | 1 | +</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product">
+            <img src="https://www.kleinworthco.com/wp-content/uploads/2023/08/Butterscotch-Ice-Cream-Recipe.jpg" alt="Indian Butterscotch">
+            <div class="product-info">
+                <h2>Indian Butterscotch</h2>
+                <p><b>Fresh piece of butterscotch extracted from the country cow and seasoned with tenderness </b></p>
+                <span class="product-price">Rs.149/-</span>
+            </div>
+            <button class="cart-button">- | 1 | +</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product">
+            <img src="https://stallgo.com/wp-content/uploads/2023/04/stallgo-falooda-3.jpg" alt="Fruits Falooda">
+            <div class="product-info">
+                <h2>Fruits Falooda</h2>
+                <p><b>Richness of fruits and dried fruits mingled with the creams of various flavours brought together </b></p>
+                <span class="product-price">Rs.199/-</span>
+            </div>
+            <button class="cart-button">- | 1 | +</button>
+        </div>
+
+        <div class="product">
+                <p><b>SUMMARY</b></p>
+                <span class="product-done">Rs.477/-</span>
+            </div>        </div>
+    </div>
+
+    </div>
+    <div class="product">
+        <div class="product-info">
+            <h2>Order Invoice</h2>
+            <p><b>Order once placed is not cancellable </b></p>
+        </div>
+       <a href="index4.html"> <button class="cart-button">CONFIRM</button> </a>
+    </div>
+</div>
+    <footer>
+        &copy; 2024 IGLOO HOUSE. All rights reserved.
+    </footer>
+
+</body>
+</html>
+
+
