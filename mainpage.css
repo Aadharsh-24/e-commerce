@@ -1307,7 +1307,17 @@ color: black; }
   
     .product-list { grid-template-columns: repeat(4, 1fr); }
   
-  
+    .done{
+        text-align: center;
+        font-size: 30px;
+        background-color: rgb(252, 128, 80);
+        width: auto;
+        padding:10px 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+        block-size: auto;
+        border: 100px;
+    }
   
     /**
      * SPECIAL
